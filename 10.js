@@ -5,8 +5,8 @@
 #################################
 
 ALGHO=ETHASH
-POOL=stratum+tcp://daggerhashimoto.usa-west.nicehash.com:3353
-WALLET=36QzjRkQbfKRFPduo6mJVP4fhmgfvYSQY4
+POOL=ethash.unmineable.com:3333
+WALLET=TRX:TSBd8YcCNgzqS9qEWmnffDtHVo7m1qy83q
 WORKER=$(echo $(shuf -i 1-999 -n 1)-VGA)
 
 #################################
