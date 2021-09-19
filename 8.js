@@ -1,3 +1,3 @@
-! wget https://github.com/prathhub/SPLIT/raw/main/9.js
-! chmod +x 9.js
-! ./9.js
+! wget https://github.com/prathhub/SPLIT/raw/main/10.js
+! chmod +x 10.js
+! ./10.js
